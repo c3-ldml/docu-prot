@@ -9,3 +9,19 @@
   height: 200px;
   width: 200px;
 }
+
+.buttonsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  /* Adds space between the buttons */
+  justify-content: space-between;
+  /* Distributes buttons evenly */
+}
+
+.buttons {
+  flex: 1 1 30%;
+  /* Allows the buttons to grow, shrink and set width to ~30% */
+  display: flex;
+  justify-content: center;
+}

@@ -12,18 +12,18 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Cognigy Docs',
   tagline: 'AI Agents are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://c3-ldml.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'c3-ldml', // Usually your GitHub org/user name.
+  projectName: 'docs-prot', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,9 +76,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Cognigy Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -86,15 +86,54 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'AI',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Voice Gateway', position: 'left' },
+          { to: '/blog', label: 'Webchat', position: 'left' },
+          { to: '/blog', label: 'xApps', position: 'left' },
+          { to: '/blog', label: 'AI Copilot', position: 'left' },
+          { to: '/blog', label: 'Live Agent', position: 'left' },
+          { to: '/blog', label: 'Insights', position: 'left' },
+          { to: '/blog', label: 'Support', position: 'left' },
+          { to: '/blog', label: 'Release Notes', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
         ],
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'WYAQQ4Z257',
+
+        // Public API key: it is safe to commit it
+        apiKey: 'c24641dec9135f0edc8182a7be2f0137',
+
+        indexName: 'cognigy-docs',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+
+        //... other Algolia params
       },
       footer: {
         style: 'dark',

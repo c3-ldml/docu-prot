@@ -1,0 +1,9 @@
+<svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Upper half of the SVG -->
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.729 1.999L1.188 3.997L0.503003 8.979C0.126003 11.719 0.135003 15.842 0.524003 18.141L1.23 22.321L3.57 24.66L5.909 27H16.521H27.133L26.816 24.25L26.5 21.5L16.5 21L6.5 20.5L6.196 14.026L5.893 7.551L7.638 6.276L9.382 5H18.191H27V2.5V0H16.635H6.27L3.729 1.999Z" fill="white"/>
+    
+    <!-- Mirrored lower half -->
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.729 1.999L1.188 3.997L0.503003 8.979C0.126003 11.719 0.135003 15.842 0.524003 18.141L1.23 22.321L3.57 24.66L5.909 27H16.521H27.133L26.816 24.25L26.5 21.5L16.5 21L6.5 20.5L6.196 14.026L5.893 7.551L7.638 6.276L9.382 5H18.191H27V2.5V0H16.635H6.27L3.729 1.999Z" fill="white" transform="translate(0, 27) scale(1, -1)" />
+  </g>
+</svg>
