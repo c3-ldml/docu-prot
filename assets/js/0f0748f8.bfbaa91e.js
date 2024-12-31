@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_prototype=self.webpackChunkdocs_prototype||[]).push([[3904],{6827:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/docu-prot/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
