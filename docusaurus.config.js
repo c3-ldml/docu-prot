@@ -18,12 +18,13 @@ const config = {
   url: 'https://c3-ldml.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docu-prot/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'c3-ldml', // Usually your GitHub org/user name.
-  projectName: 'docs-prot', // Usually your repo name.
+  projectName: 'docu-prot', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
