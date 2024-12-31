@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import styles from './index.module.css'
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -23,42 +24,49 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              AI ⏱️
+              Cognigy AI
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Voice Gateway ⏱️
+              Voice Gateway
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Docusaurus Tutorial - 5min ⏱️
+              Webchat
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Docusaurus Tutorial - 5min ⏱️
+              xApps
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Docusaurus Tutorial - 5min ⏱️
+              AI Copilot
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Docusaurus Tutorial - 5min ⏱️
+              Live Agent
+            </Link>
+          </div>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/intro">
+              Insights
             </Link>
           </div>
         </div>
