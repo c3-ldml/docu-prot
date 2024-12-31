@@ -19,10 +19,6 @@ function HomepageHeader() {
         {/* Wrapper around buttons */}
         <div className={styles.buttonsWrapper}>
           <div className={styles.buttons}>
-            <img
-              src="../../static/img/ai.png"
-              alt="Tognigy AI logo"
-            />
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
