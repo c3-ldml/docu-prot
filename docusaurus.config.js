@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cognigy Docs',
+  title: 'Tognigy Docs',
   tagline: 'AI Agents are cool',
   favicon: 'img/logo.svg',
 
@@ -79,7 +79,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'Cognigy Logo',
+          alt: 'Tognigy Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -111,7 +111,7 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: 'c24641dec9135f0edc8182a7be2f0137',
 
-        indexName: 'cognigy-docs',
+        indexName: 'tognigy-docs',
 
         // Optional: see doc section below
         contextualSearch: true,
