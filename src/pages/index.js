@@ -3,8 +3,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import styles from './index.module.css'
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -24,8 +22,9 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/intro">
-              Cognigy AI
+              Tognigy AI
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -33,6 +32,7 @@ function HomepageHeader() {
               to="/docs/intro">
               Voice Gateway
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -40,6 +40,7 @@ function HomepageHeader() {
               to="/docs/intro">
               Webchat
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -47,6 +48,7 @@ function HomepageHeader() {
               to="/docs/intro">
               xApps
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -54,6 +56,7 @@ function HomepageHeader() {
               to="/docs/intro">
               AI Copilot
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -61,6 +64,7 @@ function HomepageHeader() {
               to="/docs/intro">
               Live Agent
             </Link>
+            <p></p>
           </div>
           <div className={styles.buttons}>
             <Link
@@ -68,6 +72,7 @@ function HomepageHeader() {
               to="/docs/intro">
               Insights
             </Link>
+            <p></p>
           </div>
         </div>
       </div>
